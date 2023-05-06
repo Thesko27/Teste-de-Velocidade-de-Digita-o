@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap");
+* {
+    box-sizing: border-box;
+    font-family: "Bruno Ace", cursive;
+}
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.intrucoes {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+#texto {
+    font-size: 1.2rem;
+    background-color: #7977779d;
+    padding: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+#entrada {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+#resultado {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+button {
+    font-size: 1rem;
+    padding: 0.6rem 1.2rem;
+    background-color: #6a6765;
+    color: #fff;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #a7a4a1;
+}
+
+#alteraTema {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+/*Temas*/
+.claro {
+    background: linear-gradient(
+        to right,
+        #faa72a,
+        #fbbd42,
+        #fdd35b,
+        #fee973,
+        #ffff8b
+    );
+    color: #000;
+}
+.escuro {
+    background: linear-gradient(
+        to right,
+        #3d7b30,
+        #669c57,
+        #90bd7f,
+        #b9dea6,
+        #e3ffce
+    );
+
+    color: #000;
+}
